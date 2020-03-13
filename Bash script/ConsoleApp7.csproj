@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bash-data\**" />
+    <EmbeddedResource Remove="bash-data\**" />
+    <None Remove="bash-data\**" />
+  </ItemGroup>
+
+</Project>
